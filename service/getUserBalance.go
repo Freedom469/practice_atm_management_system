@@ -9,13 +9,6 @@ import (
 	"practice/utils"
 )
 
-// type user struct {
-// 	// fname string
-// 	// lname string
-// 	// pin string
-// 	// balance int
-// }
-
 func GetUserBalance(account, pin string) int {
 	filePath := "data/users.txt"
 	file, err := os.ReadFile(filePath)

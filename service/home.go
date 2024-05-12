@@ -18,7 +18,6 @@ func HomePage(account, pin, userName string ) {
 			fmt.Println(`
 			1: Transfer Funds.
 			2: Withdraw Funds.
-			3: Open An Account.
 			0: Exit.
 
 ------------------------------------------------------------------
@@ -40,11 +39,8 @@ func HomePage(account, pin, userName string ) {
 			case 2:
 				utils.ClearScreen()
 				WithdrawFunds()
-			case 3:
-				utils.ClearScreen()
-				OpenAccount()
 			case 0:
-				fmt.Println("Exiting...")
+				fmt.Println("Exiting ...")
 				exit = true
 				os.Exit(0)
 			}
