@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("\n\t\t\t\t OR ")
 	fmt.Println("\n\t\t\t0. TO SIGN INTO YOUR ACOOUNT")
 	var input int
-	fmt.Print("Enter Your Option: ")
+	fmt.Print("\n\nEnter Your Option: ")
 	fmt.Scan(&input)
 	if input == 1 {
 		service.OpenAccount()
