@@ -38,7 +38,7 @@ func HomePage(account, pin, userName string ) {
 				TransferFunds(account, &balance)
 			case 2:
 				utils.ClearScreen()
-				WithdrawFunds()
+				WithdrawFunds(account)
 			case 0:
 				fmt.Println("Exiting ...")
 				exit = true
